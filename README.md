@@ -16,6 +16,9 @@ Usage
 2. 在A上启动golocproxy客户程序 `./client -l 127.0.0.1:80 -r 61.1.1.1:8009 -pwd mypassword`
 3. 外部的任何主机直接通过`http://61.1.1.1:8010`即可访问A的http服务
 
+备注：测试确认服务器端启动不需要 -up 和 -pwd参数，应该是原作者更新代码后没有更新说明。没有这两个参数确实更简洁。
+
+
 Download
 --------
 <https://github.com/jijinggang/golocproxy/blob/master/bin/golocproxy.zip?raw=true>
